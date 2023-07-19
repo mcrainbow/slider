@@ -168,6 +168,9 @@ body {
 
 .slider {
   display: flex;
+  column-gap: 100px;
+
+  transition: all 1s ease;
 }
 
 .item {
@@ -175,7 +178,8 @@ body {
   align-items: center;
   justify-content: center;
 
-  border: 1px solid black;
+  box-sizing: border-box;
+  border: 2px solid black;
   border-radius: 10px;
 
   min-width: 498px;
